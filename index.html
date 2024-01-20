@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policlínica Jaguaribe</title>
+
+    <link rel="stylesheet" href="./libs/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow shadow-offset-down-xs fixed-top">
+            <div class="container-fluid px-5">
+                <a class="navbar-brand" href="#"><img src="./assets/img/logo-policlinica-jaguaribe-no-bg.png" width="220" height="75" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#carousel">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">A clínica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#clinical-staff">Corpo clínico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#specialties">Especialidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Fale conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="#navbarSupportedContent">
+        <section id="carousel">
+            <div id="clinic-carousel" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#clinic-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#clinic-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div id="appointment-item-image" class="item-image"></div>
+                        <div class="container">
+                            <h1>Marque sua consulta</h1>
+                            <button class="btn btn-success"><i class="fa-brands fa-whatsapp fa-xl"></i> Entre em contato</button>
+                        </div>
+                    </div>
+                    <div id="attendant-item" class="carousel-item">
+                        <div id="attendant-item-image" class="item-image"></div>
+                        <div class="container">
+                            <h1>Fale com nossos atendentes</h1>
+                            <button class="btn btn-success"><i class="fa-brands fa-whatsapp fa-xl"></i> Entre em contato</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#clinic-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#clinic-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 d-flex align-items-center">
+                        <div>
+                            <h1>A clínica</h1>
+                            <p>
+                                A Policlínica Jaguaribe é uma clínica médica localizada em João Pessoa, PB. Nossa equipe de médicos 
+                                altamente qualificados está comprometida em fornecer cuidados de saúde excepcionais aos nossos pacientes.
+                            </p>
+                            <p>
+                                Com uma abordagem centrada no paciente, oferecemos uma ampla gama de serviços médicos, desde consultas de rotina até 
+                                tratamentos especializados. Nosso objetivo é promover o bem-estar e a qualidade de vida de todos aqueles que confiam em 
+                                nós para sua saúde.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <img src="./assets/img/predio-poli-jaguaribe.jpg" class="img-fluid rounded" alt="Logo Policlínica">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="clinical-staff" class="bg-dark-green py-5">
+            <div class="container">
+                <h1>Corpo clínico</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/img/medico1.jpg" class="card-img-top" height="400" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dr. Fulano</h5>
+                          <p class="card-text">Cardiologista</p>
+                          <p class="card-text">CRM/PB 123456</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/img/medico2.jpg" class="card-img-top" height="400" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dra. Fulana</h5>
+                          <p class="card-text">Cardiologista</p>
+                          <p class="card-text">CRM/PB 123456</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                          <img src="./assets/img/medico3.jpg" class="card-img-top" height="400" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Dra. Fulana</h5>
+                            <p class="card-text">Cardiologista</p>
+                            <p class="card-text">CRM/PB 123456</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5 d-flex justify-content-center">
+                   <button class="btn btn-secondary">Saiba mais</button> 
+                </div>
+            </div>
+        </section>
+
+        <section id="specialties" class="py-5">
+            <div class="container">
+                <h1>Especialidades e Exames</h1>
+                <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+                    <div class="col accordion mt-3" id="accordion-exams">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panel-cadio-collapse" aria-expanded="false" aria-controls="panel-cadio-collapse">
+                                EXAMES CARDIOLÓGICOS
+                            </button>
+                          </h2>
+                          <div id="panel-cadio-collapse" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Eletrocardiograma</li>
+                                    <li class="list-group-item">Ecocardiograma</li>
+                                    <li class="list-group-item">Mapa</li>
+                                    <li class="list-group-item">Holter</li>
+                                    <li class="list-group-item">Teste Ergométrico</li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panels-gine-collapse" aria-expanded="false" aria-controls="panels-gine-collapse">
+                                  EXAMES GINECOLÓGICOS
+                              </button>
+                            </h2>
+                            <div id="panels-gine-collapse" class="accordion-collapse collapse">
+                              <div class="accordion-body">
+                                  <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">Colposcopia</li>
+                                      <li class="list-group-item">Vulvoscopia</li>
+                                      <li class="list-group-item">Biopsia do Colo do Útero</li>
+                                      <li class="list-group-item">Inserção de DIU</li>
+                                      <li class="list-group-item">Retirada de DIU</li>
+                                  </ul>
+                              </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panels-gastro-collapse" aria-expanded="false" aria-controls="panels-gastro-collapse">
+                                  EXAMES GASTROENTEROLÓGICOS
+                              </button>
+                            </h2>
+                            <div id="panels-gastro-collapse" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Endoscopia</li>
+                                        <li class="list-group-item">Biopsia</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panels-procedures-collapse" aria-expanded="false" aria-controls="panels-procedures-collapse">
+                                  PROCEDIMENTOS
+                              </button>
+                            </h2>
+                            <div id="panels-procedures-collapse" class="accordion-collapse collapse">
+                              <div class="accordion-body">
+                                  <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">Procedimentos Dermatológicos</li>
+                                      <li class="list-group-item">Procedimentos Ginecológicos</li>
+                                      <li class="list-group-item">Core Biopsia</li>
+                                      <li class="list-group-item">Paaf Mamária</li>
+                                      <li class="list-group-item">Infiltração</li>
+                                  </ul>
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Audiometria</li>
+                            <li class="list-group-item">Audiometria Tonal</li>
+                            <li class="list-group-item">Audiometria Vocal</li>
+                            <li class="list-group-item">Impedanciometria</li>
+                            <li class="list-group-item">Mamografia</li>
+                            <li class="list-group-item">Raio X</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-us" class="bg-green py-5">
+            <div class="container">
+                <h1>Fale conosco</h1>
+                <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+                    <div class="col">
+                        <a href="tel:8336121000">
+                            <div class="card bg-dark-green text-center pt-3">
+                                <p><i class="fa-solid fa-phone fa-xl"></i> (83) 3612-1000</p>
+                            </div>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558336121000">
+                            <div class="card bg-dark-green text-center pt-3 mt-2">
+                                <p><i class="fa-brands fa-whatsapp fa-2xl"></i> (83) 1234-5678</p>
+                            </div>
+                        </a>
+                        <div>
+                            <p><strong>Horário de Funcionamento:</strong> Segunda a sexta: 6h às 17h | Sábado: 6h às 11h</p>
+                        </div>
+                    </div>
+                    <div id="map-container" class="col">
+                        <iframe class="rounded" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15835.678988541746!2d-34.8804514!3d-7.135279!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace8138c94b22f%3A0x3122a29118114d82!2sPolicl%C3%ADnica%20Jaguaribe!5e0!3m2!1spt-BR!2sbr!4v1705709539754!5m2!1spt-BR!2sbr"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="px-5 pt-5 pb-3">
+        <div class="container text-center">
+            <p>© 2024 Policlínica Jaguaribe – Todos os direitos reservados</p>
+            <p>Desenvolvido por <a href="https://www.publiq.social">Publiq</a></p>
+        </div>
+    </footer>
+
+    <script src="./libs/jquery/jquery.js"></script>
+    <script src="./libs/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5325a3bab3.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

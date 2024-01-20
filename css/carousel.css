@@ -1,0 +1,44 @@
+
+#appointment-item-image {
+    background-image: url('../assets/img/clinica-centro-e-onsultorio.jpeg');
+}
+
+#attendant-item-image {
+    background-image: url('../assets/img/clinica-medica.jpg');
+}
+
+.item-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel-item {
+    height: 40rem;
+    position: relative;
+    background-color: #000;
+    color: #FFF;
+}
+
+.carousel-item .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 260px;
+    text-align: center;
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    border-radius: 50%;
+}
