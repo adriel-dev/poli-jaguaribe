@@ -12,6 +12,14 @@ html {
     background-color: #09716D;
 }
 
+.color-blue {
+    color: #003444;
+}
+
+.color-green {
+    color: #097B76;
+}
+
 #contact-us a {
     text-decoration: none;
     color: #FFF;
