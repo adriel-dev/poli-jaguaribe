@@ -16,6 +16,24 @@ html {
     color: #003444;
 }
 
+.btn-poli {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background-color: #2C3191;
+    border: 1px solid #2C3191;
+    color: #FFF;
+}
+
+.btn-poli:hover {
+    background: #191d69;
+    border: 1px solid #191d69;
+}
+
+.btn-poli span {
+    white-space: nowrap;
+}
+
 .color-green {
     color: #097B76;
 }

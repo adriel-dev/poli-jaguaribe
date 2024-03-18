@@ -1,4 +1,9 @@
 .card-img-top {
     object-fit: cover;
+    object-position: top;
+}
+
+.card-img-center {
+    object-fit: cover;
     object-position: center;
 }
